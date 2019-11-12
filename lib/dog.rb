@@ -15,4 +15,4 @@ class Dog
 end
 
 fido = Dog.new
-instance_variable_set(:@name, "Frido")
+fido.instance_variable_set(:@name, "Frido")
